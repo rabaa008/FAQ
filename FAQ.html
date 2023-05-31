@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="FAQ.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+  
+  <div class="image">
+    <h1>FAQ</h1>
+  </div>
+
+
+
+<div class="innpakning">
+    <div class="container">
+
+      <h3>Active directiry
+      </h3>
+
+<div class="dropdown">
+    <button class="dropbtn">Hvordan lage en OU i powershel</button>
+    <div class="dropdown-content">
+      <p>Du begynner med skirve </p>  
+      <p>"New-ADOrganizationalUnit -Name "Navnet på OrganizationalUnit"  "DC=mydomain,DC=com"</p>
+      <p>Husk på at  du må skrive rikitg dommene navn på DC </p>
+
+    </div>
+  </div>
+
+  
+
+  <div class="dropdown">
+    <button class="dropbtn">Hvordan lage bruker i Active directory via powershell</button>
+    <div class="dropdown-content">
+        <p>1.Åpne powershell  </p>
+        <p> 2.Skriv inn ""new-aduser" </p>
+        <p>3.Så må du skrive navnet på brukeren du lager</p>
+        <p> 4.Så klikker du på enter og brukeren vil legges under "under user" i actice directory</p>
+
+        
+    </div>
+  </div>
+  
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Hva er forskjellen mellom cmd og powershell</button>
+    <div class="dropdown-content">
+        <p>CMD og PowerShell er verktøy som brukes til å kjøre kommandoer i Windows. PowerShell er mer kraftfull og fleksibel enn CMD fordi den bruker objekter og cmdlets som gjør det lettere å administrere systemer og automatisere oppgaver. PowerShell har også innebygd støtte for sikkerhet og rollebasert tilgangskontroll. CMD er enklere å bruke for manuelle oppgaver, men PowerShell er bedre egnet for automatisering og skripting.</p>
+
+    </div>
+  </div>
+
+  
+  <div class="dropdown">
+    <button class="dropbtn">Hvordan aktivere Recycle bin</button>
+    <div class="dropdown-content">
+        <p>1.Først så åpner du server manager</p>
+<p>2. Så går du in på active directory </p>
+<p>3.Så ser du helt til høyre for siden, under tasks så finner du at det står "Enable Recycle bin"</p>
+    </div>
+  </div>
+
+  
+  <div class="dropdown">
+    <button class="dropbtn">Hva er active directory</button>
+    <div class="dropdown-content">
+        <p>Active Directory er en tjeneste fra Microsoft som brukes til å administrere brukere, datamaskiner, enheter og andre ressurser i et nettverk</p>
+        <p> Det er også en database som inneholder informasjon om alle objektene i netverket ditt som for eksempel brukernavn,passord,OrganizationalUnits, group policy osv</p>
+        <p>Med Active Directory kan du opprette og administrere brukerkontoer, gi tilgangsrettigheter til filer og mapper, kontrollere sikkerhet, konfigurere nettverksinnstillinger og administrere enheter</p>
+        <p>kort sagt kan man si at Active Directory er et verktøy som forenkler administrasjonen av brukere, enheter og ressurser i et nettverk ved å sentralisere informasjon og gi en rekke funksjoner for sikkerhet, tilgangskontroll og administrasjon.</p>
+    </div>
+
+  </div>
+
+  
+  <div class="dropdown">
+    <button class="dropbtn">Hva er OU</button>
+    <div class="dropdown-content"> 
+        <p>En OU (Organizational Unit) er en måte å organisere objekter i Active Directory på. Du kan tenke på det som en digital mappe som brukes til å gruppere og administrere brukere, grupper, datamaskiner og andre ressurser i en organisasjon.</p>
+        <p>Hvis du skal sette opp et lite netverk så er det lurt å bruke OU siden du får mer overskikt hvor brukerne er og hva de skal ha tilgang til</p>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Hvordan kan jeg se informasjon til brukerne i powershell</button>
+    <div class="dropdown-content">
+        <p>Får å se det så skriver du</p>
+        <p>"get-aduser Navne på brukeren -properties *"</p>
+        <p>Du skal skrivve navnet på brukeren der jeg har skrevet</p>
+
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
+
+<footer class="footer">
+  <li>
+    <ol>
+      <p>Navn - Rahand Bakker</p>
+      <p>Epost - rahand.b@osloskolen.no</p>
+      <p>Tlf - 347 28 688</p>
+    </ol>
+  </li>
+  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=aGOmpZ7U9UuvmmzL9I5mVVjxy-LPIeNDgF5M9_xoPkxUOUk2TFlGWFRQVjZGT005TlBWVTdSU09OSC4u" class="lit">Klikk på setningen hvis du vil gi meg en tilbakemlding</a>
+
+
+
+
+</footer>
+
+
+
+</body>
+</html>
